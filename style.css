@@ -1,0 +1,486 @@
+/* ======================= GOOGLE FONTS ================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* font-family: "Titan One", sans-serif; */
+/* font-family: "Poppins", sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+ /* ======================= SECTION HEADER ======================= */
+
+.header{
+    background-color: #292933;
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    padding: 80px 0 0 0;
+}
+
+.logo{
+    display: flex;
+    width: 4.9375rem;
+    height: 4.9375rem;
+    margin-left: 200px;
+}
+
+.menu{
+    background-color: #292933;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: 
+    space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 10px;
+}
+
+
+.menu .navbar{
+    margin-right: 200px;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;   
+    
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #DCDDE2;
+    display: block;
+    font-weight: 600;
+    transition: 0.3s;
+    
+}
+
+.menu .navbar ul li a:hover{
+    color: #FFB40B;
+    font-size: 18.5px;
+}
+
+#menu__logo{
+    display: none;
+}
+
+.menu__icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    display: flex;
+}
+
+.header-txt{
+    width: 50%;
+}
+
+.header-txt h1{
+    font-size: 70px;
+    line-height: 85px;
+    color: #DCDDE2;
+    margin-bottom: 20px;
+}
+
+.header-txt span{
+    font-size: 90px;
+    color: #FFB40B;
+}
+
+.header-txt p{
+    font-size: 16px;
+    color: #c4c4ce;
+    margin-bottom: 25px;
+}
+
+.header-img{
+    width: 50%;
+    text-align: center;
+}
+
+.header-img img{
+    width: 550px;
+}
+
+.buttons{
+    display: flex;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #FFB40B;
+    color: #FFB40B;
+    border-radius: 35px;
+    margin-right: 30px;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.btn-1:hover{
+    background-color: #FFB40B;
+    color: #FBFCFF;
+}
+
+
+/* ======================= END SECTION HEADER ======================= */
+
+/* ======================= SECTION MENU 1 ======================= */
+
+.menu-pl{
+    padding: 0 0 100px 0;
+}
+
+h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: #292933;
+}
+
+span{
+    color: #FFB40B;
+}
+
+.general-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+.general-txt{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    padding-bottom: 35px;
+}
+
+.general-txt img{
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 250px;
+    transition: 0.5s;
+}
+
+.general-txt img:hover{
+    height: 260px;
+}
+
+.general-txt h3{
+    font-size: 18px;
+    color: #292933;
+    padding: 25px 25px 10px 25px;
+}
+
+.general-txt p{
+    font-size: 16px;
+    color: #3A3A48;
+    padding: 0 25px 20px 25px;
+}
+
+.prices{
+    padding: 0 25px 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.btn-2{
+    display: inline-block;
+    background-color: #FFB40B;
+    font-size: 14px;
+    padding: 7px 15px;
+    color: #FBFCFF;
+    border-radius: 10px;
+}
+
+/* ======================= END SECTION MENU 1 ======================= */
+
+
+/* ======================= SECTION ABOUT ======================= */
+
+
+.about{
+    padding: 100px  0;
+    margin-bottom: 100px;
+    background-color: #292933;
+}
+
+.about-content{
+    display: flex;
+}
+
+.about-txt{
+    width: 50%;
+}
+
+.about-txt h2{
+    color: #FBFCFF;
+}
+
+.about-txt p{
+    font-size: 16px;
+    color: #c4c4ce;
+    margin-bottom: 40px;
+}
+
+.hamburguer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hamburguer span{
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.about-img{
+    width: 50%;
+    text-align: right;
+}
+
+/* ======================= END SECTION ABOUT ======================= */
+
+
+/* ======================= FOOTER ======================= */
+
+.footer{
+    padding: 50px 0;
+    background-color: #292933;
+    
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__img img{
+    width: 9.9375rem;
+    height: 9.9375rem;
+
+}
+
+.link h3{
+    color: #FBFCFF;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.link a{
+    color: #DCDDE2;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link a:hover{
+    color: #FFB40B;
+}
+
+
+/* ======================= END FOOTER ======================= */
+
+
+/* ======================= RESPONSIVE ======================= */
+
+
+@media (max-width:991px){
+
+
+    /* ======================= NAVBAR ======================= */
+
+    .logo{
+        margin-left: 0;
+        width: 3.9375rem;
+        height: 3.9375rem;
+    }
+    .menu{
+        padding: 10px;
+        position: absolute;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #303030;
+        display: none;
+        margin-right: 0;
+    }
+
+    
+    #menu__logo:checked ~ .navbar{
+        display: initial;
+    }
+
+    .menu .navbar ul li{
+        text-align: center;
+        width: 100%;
+    }
+
+    .menu .navbar ul li a{
+        color: #DCDDE2;
+        transition: 0.01s;
+    }
+
+    .menu .navbar ul li a:active{
+        color:  #FFB40B;
+        font-size: 20px;
+        
+    }
+
+
+    /* ======================= HEADER ======================= */
+
+    .header{
+        min-height: 0vh;
+    }
+
+    .header-content{
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .header-txt{
+        width: 100%;
+    }
+    .header-txt h1{
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .header-txt span{
+        font-size: 50px;
+    }
+
+    .header-img{
+        width: 100%;
+    }
+
+    .header-img img{
+        width: 300px;
+    }
+
+    .buttons{
+        justify-content: center;
+    }
+
+    .btn-1{
+        margin: 0 10px;
+    }
+
+    .btn-1:active{
+        background-color: #FFB40B;
+        color: #FBFCFF;
+    }
+
+    /* ======================= SECTION MENU 1 ======================= */
+
+    .menu-pl{
+        padding: 50px 30px 50px 30px;
+        text-align: center;
+    }
+
+
+
+    .general-content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+
+    .general-txt img{
+        object-fit: cover;  
+    }
+
+    /* ======================= SECTION ABOUT ======================= */
+
+    .about{
+        padding: 30px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .about-content{
+        flex-direction: column;
+    }
+
+    .about-txt{
+        width: 100%;
+    }
+
+    .about-txt p{
+        margin-bottom: 0;
+    }
+
+    .hamburguer{
+        padding: 10px;
+        flex-direction: column;
+    }
+    .hamburguer span{
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+
+    .about-img{
+        padding-top: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-img img{
+        width: 200px;
+    }
+
+    /* ======================= FOOTER ======================= */
+
+    .footer{
+        padding: 50px 30px;
+        
+    }
+
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 35px;
+        
+    }
+
+}
